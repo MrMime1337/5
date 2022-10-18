@@ -528,7 +528,7 @@ input.search-bar-top:-moz-placeholder { color: #fff!important; }
 .dark-grey-bg{background-color: #e0e0e0;}
 .gradient-bg{background: rgba(28,167,236,1);
 background: -moz-linear-gradient(left, rgba(28,167,236,1) 0%, rgba(75,0,224,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28,167,236,1)), color-stop(100%, rgba(75,0,224,1)));
+background: -webkit-gradient(left top, right top, color-stop(0%, rgb(213, 28, 250)), color-stop(100%, rgb(233, 0, 0)));
 background: -webkit-linear-gradient(left, rgba(28,167,236,1) 0%, rgba(75,0,224,1) 100%);
 background: -o-linear-gradient(left, rgba(28,167,236,1) 0%, rgba(75,0,224,1) 100%);
 background: -ms-linear-gradient(left, rgba(28,167,236,1) 0%, rgba(75,0,224,1) 100%);
