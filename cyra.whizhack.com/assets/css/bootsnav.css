@@ -30,6 +30,7 @@ nav.bootsnav .megamenu-content .title{
 nav.bootsnav .dropdown.megamenu-fw .dropdown-menu {
     left: 0;
     right: 0;
+    size: 4em;
 }
 
 /* Navbar
@@ -90,14 +91,17 @@ nav.navbar.bootsnav.dark {
 
 nav.navbar.bootsnav ul.nav > li > a{
     color: #1d2124;
+    padding-left: 2.5em !important;/*space between words */
+    padding-right: 2.5em !important;
+    padding-top: 2em !important;
     background-color: transparent;
     outline: none;
     margin-bottom: -2px;
 	  font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-	  font-weight: 500;
+    font-size: 15px;
+	  font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 0.065em;
+    letter-spacing: 0.31em;
 }
 
 nav.navbar.bootsnav ul.nav > li > a:hover{color: #1ca7ec;}
@@ -773,7 +777,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 @media (min-width: 1024px) and (max-width:1400px) {
     body.wrap-nav-sidebar .wrapper .container{
         width: 100%;
-        padding-left: 30px;
+        padding-left: 20px;
         padding-right: 30px;
     }
 }
@@ -960,11 +964,12 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
 		position: relative;
 	}
 
+   
     nav.navbar.bootsnav.navbar-transparent.white, nav.navbar.bootsnav.navbar-transparent.dark{
-        background:transparent;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.788) 90%);
         height:80px;
-		box-shadow: none;
     }
+    
 
     nav.navbar.navbar-inverse.bootsnav.navbar-transparent.dark,
     nav.navbar.bootsnav.navbar-transparent.dark{
