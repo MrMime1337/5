@@ -151,7 +151,7 @@ h1 a.dark, h2 a.dark, h3 a.dark, h4 a.dark, h5 a.dark, h6 a.dark { color: rgb(19
 h1 a.dark:hover, h2 a.dark:hover, h3 a.dark:hover, h4 a.dark:hover, h5 a.dark:hover, h6 a.dark:hover { color: #1ca7ec;}
 p a {}
 p a:hover {color: #1ca7ec;}
-p {letter-spacing: normal;line-height: 24px;color: rgb(255, 255, 255);font-weight:400;font-family: 'Open Sans', sans-serif;}
+p {letter-spacing: normal;line-height: 24px;color: rgb(0, 0, 0);font-weight:400;font-family: 'Open Sans', sans-serif;}
 p.intro{font-size:16px;line-height:1.5em;}
 a {text-decoration: none;color:#1d2124;}
 a:hover, a:focus, a:active {outline: none;text-decoration: none;color:#1ca7ec;}

@@ -2,7 +2,7 @@
     --height-logo-header: 40px;
     --height-logo-footer: 40px;
     --height-logo-mobile-header: 34px;
-    --height-logo-mobile-footer: 34px;
+    --height-logo-mobile-footer: 2px;
     --max-width-global-wrap: 1600px;
     --max-width-post-wrap: 720px;
     --grid-gap: 16px;
@@ -2903,7 +2903,7 @@ textarea::placeholder {
 
 .post-content {
     font-size: 2rem;
-    max-width: var(--max-width-post-wrap);
+    max-width: 60%;
     margin: 0 auto 14vh
 }
 
@@ -4226,7 +4226,6 @@ textarea::placeholder {
 }
 
 .footer-section {
-    width: 100%;
     color: var(--color-font-one);
     background-color: var(--color-body-partial)
 }
@@ -4249,9 +4248,10 @@ textarea::placeholder {
 
 .footer-nav a:hover,
 .footer-copyright a:hover {
+    align-content: var(--margin-wrap-left-right);
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 2px
+    text-underline-offset: 7px;
 }
 
 .footer-subscribe h3 span,
