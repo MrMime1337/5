@@ -1730,7 +1730,7 @@ li.post-comment{list-style:none;}
 .footer-copyright ul.crypto.social-media li a:hover{color:#50C9C3;}
 .popular-tags a{display:inline-block;padding:5px 11px;margin:0 5px 15px 0;border:1px solid #9e9e9e;color:#9e9e9e;background:transparent;font-size:14px;}
 .popular-tags a:hover{background:#1ca7ec;border:1px solid #1ca7ec;color:#fff;text-decoration:none;}
-.footer-logo img{width: 200px;height: 66px;}
+.footer-logo img{width: 200px;}
 
 /* Google Maps */
 

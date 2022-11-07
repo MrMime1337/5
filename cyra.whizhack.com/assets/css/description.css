@@ -87,7 +87,6 @@
   box-sizing: border-box;
   padding: 20px;
   height: calc(100% - 40px);
-  overflow: scroll;
   background-color: #000;
   color: #63de00;
 }
