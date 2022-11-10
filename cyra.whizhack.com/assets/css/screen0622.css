@@ -993,10 +993,7 @@ textarea::placeholder {
     padding-left: var(--margin-wrap-left-right)
 }
 
-.global-wrap,
-.global-content {
-    min-height: 100vh
-}
+
 
 .global-content {
     display: flex;
