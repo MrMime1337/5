@@ -2991,7 +2991,9 @@ textarea::placeholder {
 }
 
 .post-content h3 {
-    font-size: 3.2rem
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(0, 217, 255);
 }
 
 .post-content h4 {

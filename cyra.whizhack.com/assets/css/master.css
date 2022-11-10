@@ -1163,10 +1163,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca7ec', end
 .portfolio:hover .default-overlay.folio-overlay{opacity: 1;visibility:visible;}
 .portfolio-wrap {position: absolute;top: 50%;left: 0;width: 100%;margin-top: -50px;}
 .portfolio-description .portfolio-title,
-.portfolio-description .links {position: relative;left: 0;color: #fff;width: 100%;opacity: 0;visibility: hidden;}
-.portfolio-description .portfolio-title {top: 0;-webkit-transition: 0.3s;-moz-transition: 0.3s;-o-transition: 0.3s;transition: 0.3s;font-size: 20px;letter-spacing: 3px;font-weight: 500;font-family: 'Open Sans', sans-serif;text-transform: uppercase;margin-bottom: 0;}
+.portfolio-description .links {position: relative;left: 0;color: #fff;width: 100%;opacity: 0;visibility: hidden; }
+.portfolio-description .portfolio-title {top: 0;-webkit-transition: 0.3s;-moz-transition: 0.3s;-o-transition: 0.3s;transition: 0.3s;font-size: 30px;letter-spacing: 3px;font-weight: 500;font-family: 'Open Sans', sans-serif;text-transform: uppercase;margin-bottom: 0;}
 .portfolio:hover .portfolio-description .portfolio-title {top: 30px;opacity: 1;visibility: visible;}
-.portfolio-description .links {top: 0px;-webkit-transition: 0.4s;-moz-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;font-size: 13px;font-weight: 300;}
+.portfolio-description .links {top: 0px;-webkit-transition: 0.4s;-moz-transition: 0.4s;-o-transition: 0.4s;transition: 0.4s;font-size: 20px;font-weight: 300;}
 .portfolio:hover .portfolio-description .links {top: 25px;opacity: 1;visibility: visible;}
 .portfolio-description .btn {background-color: transparent;;border-color: #fff;padding: 12px 22px;border-radius: 20px;}
 .portfolio-description .btn:hover {background-color: #fff;;border-color: #fff;color: #ff2a40;}
