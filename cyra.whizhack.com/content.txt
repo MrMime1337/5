@@ -1,0 +1,37 @@
+Disabling auiditing
+Tools
+"Auditpol"
+
+Auditpol.exe is the command-line utility tool to change Audit Security settings at the category and sub-category levels. Attackers can use AuditPol to enable or disable security auditing on local or remote systems and to adjust the audit criteria for different categories of security events.
+
+Usage
+C:\>auditpol \\<ip address of target>
+
+This will reveal the current audit status of the system. He or she can choose to disable the auditing by:
+
+C :\>auditpol \\<ip address of target> /disable
+
+
+Clearing logs
+Clear All Windows System Logs. Enables you to retrieve information about event logs and publishers.
+You can also use this command to install and uninstall event manifests,
+to run queries, and to export, archive, and clear logs.
+
+Usage
+https://sourceforge.net/projects/clearlogs/
+
+
+Recovering tracks
+
+Recuva is a convenient way to recover deleted files on your Windows PC. The freemium application can recover a range of file formats and types, including documents, emails, pictures, videos, music, and more. Whether you just lost a file or deleted it weeks ago, Recuva is able to recover information from memory cards, external hard drives, and internal system storage.
+
+Usage
+https://recuva.en.softonic.com/
+
+
+
+
+
+
+
+
