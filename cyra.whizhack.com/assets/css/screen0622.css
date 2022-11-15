@@ -1,4 +1,6 @@
 :root {
+    /* herosection background  */
+    --hero_bg_color : linear-gradient(90deg, rgb(145, 0, 0) 0%, black 100%);
     --height-logo-header: 40px;
     --height-logo-footer: 40px;
     --height-logo-mobile-header: 34px;
