@@ -1009,7 +1009,8 @@ textarea::placeholder {
     margin-right: auto;
     margin-left: auto;
     padding-right: var(--margin-wrap-left-right);
-    padding-left: var(--margin-wrap-left-right)
+    padding-left: var(--margin-wrap-left-right);
+    margin-bottom: 50px;
 }
 
 
@@ -2920,7 +2921,6 @@ textarea::placeholder {
 .post-content {
     font-size: 2rem;
     max-width: 60%;
-    margin: 0 auto 14vh
 }
 
 .post-content h1:first-child,
