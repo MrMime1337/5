@@ -3056,7 +3056,6 @@ textarea::placeholder {
 
 .post-content a {
     transition: color .1s ease;
-    text-decoration: underline
 }
 
 .post-content a:hover {
