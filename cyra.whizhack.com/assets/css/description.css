@@ -64,33 +64,32 @@
 }
 
 .console {
-  font-family: 'Fira Mono';
-  width: 616px;
-  height: 200px;
-  box-sizing: border-box;
-  margin: auto;
+    margin-top: 20px;
+    font-family: 'Fira Mono';
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin: auto;
 }
 
 .console header {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  background-color: #555;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  color: #DDD;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #555;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #DDD;
 }
 
 .console .consolebody {
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  box-sizing: border-box;
-  padding: 20px;
-  height: calc(100% - 40px);
-  background-color: #000;
-  color: #63de00;
+
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: calc(100% - 40px);
+    background-color: #000;
 }
 
 .console .consolebody p {
-  line-height: 1.5rem;
+    line-height: 1.5rem;
 }
