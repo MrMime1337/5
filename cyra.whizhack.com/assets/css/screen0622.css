@@ -1,6 +1,6 @@
 :root {
     /* herosection background  */
-    --hero_bg_color : linear-gradient(90deg, rgb(145, 0, 0) 0%, black 100%);
+    --hero_bg_color : linear-gradient(90deg, rgb(42, 14, 255) 0%, rgb(195, 0, 255)100%);
     --height-logo-header: 40px;
     --height-logo-footer: 40px;
     --height-logo-mobile-header: 34px;
@@ -835,7 +835,7 @@ textarea::placeholder {
     border: 0;
     border-radius:80px;
     outline: 0;
-    background-color: var(--ghost-accent-color)
+    background-color: rgb(93, 0, 255)
 }
 
 .global-button,
